@@ -1,0 +1,29 @@
+1.- Nos movemos al directorio del proyecto
+2.- Ya dentro del directorio del proyecto tecleamos:
+	pod init
+
+Si no envió ni un mensaje, todo esta bien
+Caso contrario, apoyate con un amigo y si esta igual, pueden irse
+
+3.- editar el archivo Podfile, usamos el comando nano
+	nano Podfile
+
+	Si nano no te gusta, usa el siguiente comando
+
+	open Podfile
+
+	Si tampoco te gusta, usa sublime y si tampoco visual code, y si tampoco usa atom (ese esta chido)
+
+4.- Incluir la siguiente linea en tu archivo Podfile, justo antes de la palabra "end"
+
+	pod 'Firebase/Core'
+
+5.- Guardar el archivo
+6.- instalar la libreria con el siguiente comando
+	
+	pod install
+
+
+
+
+
